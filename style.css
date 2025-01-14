@@ -40,7 +40,7 @@ body {
 /*header section*/
 .hero_area {
   position: relative;
-  background-color: #78853f;
+  background-color: #1d87ff;
   height: 85vh;
 }
 
@@ -53,7 +53,7 @@ body {
 }
 
 .header_section {
-  background-color: #90953b;
+  background-color: #170566;
 }
 
 .header_section .container-fluid {
@@ -573,3 +573,19 @@ a:focus {
   color: #fefdfc;
 }
 /*# sourceMappingURL=style.css.map */
+
+.sobre-mim {
+  text-indent: 30px; /* Indenta o início do parágrafo */
+  margin-top: 20px; /* Adiciona espaço antes do parágrafo */
+  max-width: 600px; /* Define um limite máximo para a largura */
+  margin: 0 auto; /* Centraliza o parágrafo */
+  text-align: justify; /* Justifica o texto para preencher a linha */
+  word-wrap: break-word; /* Permite quebra de palavras grandes, se necessário */
+  line-height: 1.8; /* Espaçamento entre as linhas */
+}
+
+.recuo-extra {
+  display: block; /* Faz o conteúdo iniciar como uma nova linha */
+  text-indent: 30px; /* Adiciona o recuo desejado */
+  margin-top: 10px; /* Espaço adicional antes da linha */
+}

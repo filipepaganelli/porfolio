@@ -1,6 +1,6 @@
 $white: #fefdfc;
 $black: #050505;
-$colorPrimary: #ffff00;
+$colorPrimary: #050505;
 
 @mixin main-font {
   font-family: "Roboto", sans-serif;
@@ -75,7 +75,7 @@ body {
 /*header section*/
 .hero_area {
   position: relative;
-  background-color: #78853f;
+  background-color: #050505;
   height: 85vh;
 }
 
@@ -90,7 +90,7 @@ body {
 }
 
 .header_section {
-  background-color: #90953b;
+  background-color: #050505;
 
   .container-fluid {
     padding-right: 25px;
@@ -280,7 +280,7 @@ a:focus {
 
     &:hover {
       .img-box {
-        background-color: #8f9440;
+        background-color: #24b495;
 
         svg {
           fill: $white !important;
