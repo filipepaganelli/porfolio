@@ -125,11 +125,15 @@
   </div>
 
   <!-- offer section -->
-  <button onclick="gtag('event', 'botao_clicado', {'event_category': 'interação', 'event_label': 'Botão Teste'})">
+  <button onclick="setTimeout(function() {
+    gtag('event', 'botao_clicado', {
+      'event_category': 'interação',
+      'event_label': 'Botão Teste'
+    });
+  }, 1000)">
     Clique aqui
   </button>
- 
- 
+  
  
  
  
